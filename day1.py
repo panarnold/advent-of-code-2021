@@ -1,4 +1,4 @@
-def count_the_fuck(filename, window_size = 1):
+def count_me(filename, window_size = 1):
 
     with open(filename) as f:
         arr = map(int, f.readlines())
@@ -15,7 +15,7 @@ def count_the_fuck(filename, window_size = 1):
 
     print(counter)
 
-count_the_fuck('day1.txt')
-count_the_fuck('day1b.txt', 3)
+count_me('day1.txt')
+count_me('day1b.txt', 3)
     
 
